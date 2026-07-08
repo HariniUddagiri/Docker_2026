@@ -1,1 +1,1 @@
-FROM almalinux:9 #baseos & its version
+FROM almalinux:9
