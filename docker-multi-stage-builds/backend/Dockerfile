@@ -10,7 +10,7 @@ RUN addgroup -S expense && adduser -S expense -G expense && \
 #for alpine commands are little different
      mkdir /opt/backend && \
      chown -R expense:expense /opt/backend
- #chamging the ownership of the directory to the user expense
+      #combining the commands to reduce the number of layers in the image
 ENV DB_HOST="mysql"
 WORKDIR /opt/backend
 USER expense 
