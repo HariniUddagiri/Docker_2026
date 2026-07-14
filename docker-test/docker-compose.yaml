@@ -1,6 +1,6 @@
 networks:
   expense: {}
-  # docker volume create mysql
+  # docker volume create mysql equivalent to below volume creation
 volumes:
   mysql:
 services:
